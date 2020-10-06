@@ -1,4 +1,4 @@
 <strong>The first notice</strong>
 <br>
-I made a pure HTML archive from a existing notice 
+I made a pure HTML archive from a existing news 
 Original : https://www.wbay.com/2020/10/04/wisconsin-adds-fewer-than-2000-new-coronavirus-cases-for-first-time-in-5-days/
