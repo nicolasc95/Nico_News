@@ -1,4 +1,4 @@
-<strong>The first notice</strong>
+<strong>The first news</strong>
 <br>
 I made a pure HTML archive from a existing news 
 <br>
