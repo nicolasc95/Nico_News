@@ -1,14 +1,51 @@
 @font-face{
   font-family:title_font;
-  src: url(/Second\ news/Fonts/article_2_font);
+  src: url(Fonts/descarga1);
+}
+.content{
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dcdcdc;
+  padding: 0px 20px;
+  position:relative;
+  margin:20px auto;
+  color: #121212;
 }
 
+article{
+  padding:0px 650px;
+}
+
+::selection{
+  background-color: #ffe500;
+}
+
+a{
+  cursor:pointer;
+  color: #c70000;
+  text-decoration: none;
+  border-bottom-style: solid;
+  border-bottom-color: #dcdcdc;
+  border-bottom-width: 1px;
+}
+a:hover{
+  border-bottom-color: #c70000;
+}
 #main_title {
-  color: #121212;
-  font-size: 34px;
+  color: black;
+  font-size: 22px;
+  font-weight: 300;
   font-family: title_font;
   padding-top: 3px;
   padding-right: 0px;
   padding-left: 0px;
   padding-bottom: 36px ;
+}
+.section1 img{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top:0;
+  left: 0;
+
 }
