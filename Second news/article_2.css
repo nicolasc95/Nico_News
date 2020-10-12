@@ -1,0 +1,14 @@
+@font-face{
+  font-family:title_font;
+  src: url(/Second\ news/Fonts/article_2_font);
+}
+
+#main_title {
+  color: #121212;
+  font-size: 34px;
+  font-family: title_font;
+  padding-top: 3px;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: 36px ;
+}
