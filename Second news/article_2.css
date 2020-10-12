@@ -3,19 +3,37 @@
   src: url(Fonts/descarga1);
 }
 .content{
-  border-style: solid;
+  display: inline-block;
+  margin: 160px 294px 0px 294px;
+  border: solid;
   border-width: 1px;
   border-color: #dcdcdc;
-  padding: 0px 20px;
-  position:relative;
-  margin:20px auto;
+}
+.column1{
+  position: absolute;
+  border: solid;
+  border-width: 0px;
+  border-color: #dcdcdc;
+  margin-left:0px;
+  padding: 0px 136px 2980px 1px;
+}
+ article{
+  position:absolute;
+  margin: 0px 322px 0px 249px;
+  border-left:solid;
+  border-width: 1px;
+  border-color: #dcdcdc;
+  padding: 0px 400px 0px 10px;
   color: #121212;
 }
-
-article{
-  padding:0px 650px;
+.column2{
+  position: relative;
+  border: solid;
+  border-width: 0px;
+  border-color: #dcdcdc;
+  margin:0px 0px 0px 950px;
+  padding: 0px 347px 2980px 0px;
 }
-
 ::selection{
   background-color: #ffe500;
 }
@@ -33,13 +51,12 @@ a:hover{
 }
 #main_title {
   color: black;
-  font-size: 22px;
-  font-weight: 300;
-  font-family: title_font;
+  font-size: 23px;
+  font-family:title_font;
   padding-top: 3px;
   padding-right: 0px;
   padding-left: 0px;
-  padding-bottom: 36px ;
+  padding-bottom: 0px ;
 }
 .section1 img{
   width: 100%;
