@@ -98,7 +98,18 @@ a:visited{
 .section2{
   background-color: #f6f6f6;
   margin-top:24px;
+  border-top-style: solid;
+  border-width: 1px;
+  border-color: #ffe500;
   padding:4px 5px 12px;
+}
+.section2 h2{
+  color: #121212;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0px;
+  padding: 0px 50px 0px 0px;
 }
 .section2 p{
   margin:0px 0px 8px;
@@ -153,4 +164,9 @@ h3{
   display: inline-block;
   color: #dcdcdc;
   padding: 0px 2px 0px 2px;
+}
+#creditcards{
+  position: absolute;
+  left: 240px;
+  bottom:177px;
 }
