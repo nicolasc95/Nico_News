@@ -1,0 +1,26 @@
+@font-face{
+  font-family: wbay_article_font_regular;
+  src: url(First News/Fonts/fa-regular-400.woff2);
+
+}
+
+article{
+  max-width: 1903px;
+}
+img{
+  vertical-align: middle;
+  width: 938px;
+  max-width: 100%;
+}
+.column{
+  max-width: 1270px;
+  margin: auto;
+  padding: 0px 15px;
+}
+.main{
+  text-align: left;
+  max-width: 938px;
+}
+p{
+  font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
+}
