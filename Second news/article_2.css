@@ -50,7 +50,7 @@ a:visited{
   top:0;
   left: 0;
 }
-.section1 .caption{
+.caption{
   color:#767676;
   font-size: 13px;
   margin: 0px 15px 12px 0px;
@@ -62,7 +62,7 @@ a:visited{
   font-family: Georgia, 'Times New Roman', Times, serif;
   padding: 0px 50px 0px 0px;
 }
-.wrap{
+.primari .wrap{
   width: 620px;
   height: 349px;
 }
@@ -94,4 +94,63 @@ a:visited{
   border:thin solid;
   border-radius: 1000px;
   cursor: pointer;
+}
+.section2{
+  background-color: #f6f6f6;
+  margin-top:24px;
+  padding:4px 5px 12px;
+}
+.section2 p{
+  margin:0px 0px 8px;
+  font-size:20px;
+
+}
+.section2 strong{
+  background-color: #ffe500 ;
+}
+.secondary button{
+  height: 42px;
+  color: #121212;
+  background-color: #ffe500;
+  font-size:17px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin: 4px 10px 4px 0px;
+  padding: 0px 21px;
+  border: none;
+  border-radius: 1000px;
+  cursor: pointer;
+}
+.secondary img{
+  width: 175.83px;
+  height: 25px;
+}
+hr{
+  border-width: 1px;
+  border-color: #dcdcdc;
+  margin: 2px 0px;
+}
+h3{
+  font-size: 20px;
+  color: #c70000;
+  padding: 0px 5.95px 0px 5.1px;
+
+}
+.secondary a{
+  color:#c70000;
+  border-bottom:none;
+  text-decoration: none;
+}
+.secondary a:hover{
+  text-decoration: underline;
+  text-decoration-color:#c70000 ;
+}
+.secondary a:visited{
+  text-decoration: underline;
+  text-decoration-color: #c70000;
+}
+.secondary li{
+  display: inline-block;
+  color: #dcdcdc;
+  padding: 0px 2px 0px 2px;
 }
