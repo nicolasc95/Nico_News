@@ -1,7 +1,10 @@
 @font-face{
   font-family: wbay_article_font_regular;
-  src: url(First News/Fonts/fa-regular-400.woff2);
-
+  src: url(Fonts/fa-regular-400.woff2);
+}
+@font-face{
+  font-family: wbay_article_font_solid;
+  src: url(Fonts/fa-solid-900.woff2);
 }
 
 article{
@@ -21,6 +24,70 @@ img{
   text-align: left;
   max-width: 938px;
 }
+h1{
+  font-size: 40px;
+  font-family: wbay_article_font_solid,sans-serif;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #212529;
+  margin: 0px;
+  padding: 0px;
+}
+h2{
+  font-size: 16px;
+  font-family: wbay_article_font_solid,sans-serif;
+  line-height: 1.5;
+  font-weight: 750;
+  color: #212529;
+  margin: 0px 0px 16px;
+}
 p{
-  font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
+  font-size: 16px;
+  font-family: wbay_article_font_solid,sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #212529;
+  margin: 0px 0px 16px;
+}
+.twitter-tweet{
+  margin: auto;
+}
+a{
+  color: #007bff;
+  font-size: 16px;
+  font-family: wbay_article_font_solid,sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  text-decoration: none;
+}
+a:hover{
+  color: #005ec2;
+  text-decoration: underline;
+}
+ul{
+  margin: 0px 0px 16px;
+  padding: 0px 0px 0px 40px;
+}
+li{
+  font-size: 16px;
+  font-family: wbay_article_font_solid,sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #212529;
+}
+strong{font-size: 16px;
+  font-family: wbay_article_font_solid,sans-serif;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #212529;
+}
+cite{
+  font-size: 16px;
+  font-family: wbay_article_font_solid,sans-serif;
+  font-style: italic;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #212529;
+  margin: 0px 0px 16px;
+
 }
