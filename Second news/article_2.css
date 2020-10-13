@@ -1,23 +1,13 @@
-@font-face{
-  font-family:title_font;
-  src: url(Fonts/descarga1);
-}
 .content{
+  max-width: 1300px;
   display: inline-block;
   margin: 160px 294px 0px 294px;
   border: solid;
   border-width: 1px;
   border-color: #dcdcdc;
 }
-.column1{
-  position: absolute;
-  border: solid;
-  border-width: 0px;
-  border-color: #dcdcdc;
-  margin-left:0px;
-  padding: 0px 136px 2980px 1px;
-}
  article{
+  max-width: 620px;
   position:absolute;
   margin: 0px 322px 0px 249px;
   border-left:solid;
@@ -26,21 +16,9 @@
   padding: 0px 400px 0px 10px;
   color: #121212;
 }
-.column2{
-  position: relative;
-  border: solid;
-  border-width: 0px;
-  border-color: #dcdcdc;
-  margin:0px 0px 0px 950px;
-  padding: 0px 347px 2980px 0px;
-}
-::selection{
-  background-color: #ffe500;
-}
-
 a{
   cursor:pointer;
-  color: #c70000;
+  color: #ab0613;
   text-decoration: none;
   border-bottom-style: solid;
   border-bottom-color: #dcdcdc;
@@ -49,14 +27,21 @@ a{
 a:hover{
   border-bottom-color: #c70000;
 }
+a:visited{
+  border-bottom-color:darkgray;
+}
+
 #main_title {
   color: #121212;
-  font-size: 23px;
-  font-family:title_font;
-  padding-top: 3px;
-  padding-right: 0px;
-  padding-left: 0px;
-  padding-bottom: 0px ;
+  font-size: 21px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  padding-top: 3px 0px 0px 0px;
+}
+::selection{
+  background-color: #ffe500;
+}
+.trianglecaption{
+  fill: #c70000;
 }
 .section1 img{
   width: 100%;
@@ -65,31 +50,34 @@ a:hover{
   top:0;
   left: 0;
 }
+.section1 .caption{
+  color:#767676;
+  font-size: 13px;
+  margin: 0px 15px 12px 0px;
+}
 .section1 h2{
   color: #121212;
-  font-size: 17px;
-  font-family:title_font;
-  padding: 0px 100px 8px 8px;
-
+  font-size: 18px;
+  font-weight: 800;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 0px 50px 0px 0px;
 }
-.section1 li{
-  color:#767676;
-  font-size:12px;
-  margin: 0px 15px 0px 0px;
-  list-style-image: url(images/triangulo_rojo.jpg);
-  list-style-position: inside;
+.wrap{
+  width: 620px;
+  height: 349px;
 }
 .section1 p{
-  font-size:17px;
-  margin:0px 0px 16px;
+  font-size:20px;
+  margin:14px 0px;
 } 
 .section1 figure{
-  margin:25px 0px;
+  margin:20px 0px;
 }
 .section1 input{
   height: 18px;
   color:#121212;
   font: 400 14px arial;
+  margin-bottom: 15px;
   padding: 10.6px 235px 10.6px 20.6px;
   border:thin solid;
   border-radius: 1000px;
@@ -106,7 +94,4 @@ a:hover{
   border:thin solid;
   border-radius: 1000px;
   cursor: pointer;
-}
-.section1 small{
-  color:#070505;
 }
