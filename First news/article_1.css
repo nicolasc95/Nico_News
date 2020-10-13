@@ -1,0 +1,17 @@
+article{
+  max-width: 1903px;
+}
+img{
+  vertical-align: middle;
+  width: 938px;
+  max-width: 100%;
+}
+.column{
+  max-width: 1270px;
+  margin: auto;
+  padding: 0px 15px;
+}
+.main{
+  text-align: left;
+  max-width: 938px;
+}
